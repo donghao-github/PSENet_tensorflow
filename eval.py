@@ -13,6 +13,7 @@ tf.app.flags.DEFINE_string('gpu_list', '0', '')
 tf.app.flags.DEFINE_string('checkpoint_path', './model/', '')
 tf.app.flags.DEFINE_string('output_dir', './results/', '')
 tf.app.flags.DEFINE_bool('no_write_images', False, 'do not write images')
+FLAGS = tf.app.flags.FLAGS
 
 from nets import model
 from pse import pse
