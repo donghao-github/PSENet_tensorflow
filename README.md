@@ -14,11 +14,11 @@ PSENet的tensorflow复原代码地址：https://github.com/liuheng92/tensorflow_
 
 
 
-2、本人环境为：ubuntu、python3.7.5、tensorflow 1.14.0、gcc 9.2。 github上源码使用的是python2，如果使用python3请按照上面的CSDN博客更改。共3处,分别在3个文件中：Makefile、utils_tool.py、eval.py
+2、本人环境为：ubuntu、python3.7.5、tensorflow 1.13.1、gcc 9.2。 github上源码使用的是python2，如果使用python3请按照上面的CSDN博客更改。共3处,分别在3个文件中：Makefile、utils_tool.py、eval.py。 （若tensorflow1.14.0不行，请用1.13.1试试）
 
 
 
-3、从github上下载完源码之后，还要下载model文件及测试集ICDAR2015。对于model文件，github上给出了百度网盘地址，但是这个文件夹中缺少一个文件，需要自己创建，详细内容见CSDN； 测试集网站：https://rrc.cvc.uab.es/   （注意，需要注册才可下载）
+3、从github上下载完源码之后，还要下载model文件及测试集ICDAR2015。对于model文件，github上给出了百度网盘地址，但是这个文件夹中缺少一个文件，需要自己创建，详细内容见CSDN； 测试集网站：https://rrc.cvc.uab.es/   （注意，需要注册才可下载）或者链接: https://pan.baidu.com/s/1nFFd_CtYWsdw-zXWKaoNjg 提取码: dby7
 
 
 
